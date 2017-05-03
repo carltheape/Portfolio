@@ -6,7 +6,8 @@ body{background-image: url("../images/footer_lodyas.png");
 	margin:auto;
 }
 
-div{/*border:1px solid red;*/
+div{
+	/*border:1px solid red;*/
 	margin: auto;
 }
 
@@ -50,7 +51,7 @@ a:link{
 	color: grey;
 }
 
-img.portrait{ 
+img.portrait{
 	width: 250px;
     height: auto;
     position: relative;
@@ -182,4 +183,52 @@ img.network:hover {
 	float: right;
 	width: 43%;
 	margin-right: 25px;
+}
+
+.container{
+	width: 600px;
+}
+
+label{
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #777777;
+	padding: 10px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+		font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+		color: grey;
+		resize: none;
+}
+
+textarea{
+	width: 100%;
+	height: 200px;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: grey;
+
+}
+
+input[type=submit] {
+    /*width: 25%;*/
+    background-color: teal;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
 }
