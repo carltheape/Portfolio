@@ -6,7 +6,7 @@ body{background-image: url("../images/footer_lodyas.png");
 	margin:auto;
 }
 
-div{border:1px solid red;
+div{/*border:1px solid red;*/
 	margin: auto;
 }
 
@@ -149,26 +149,37 @@ img.network:hover {
 }
 
 .folio{
-/*	margin: auto;
-	display: block;*/
-	width: 100%;
-/*	padding: 5%;
-	float: left;
-	width: 90%*/
-
-}
-
-.container{
-	margin: 10px;
+	/*margin: auto;*/
+	width: 90%;
 	display: block;
-	width: 40%;
-	padding: 10px;
-	float: left;
+	object-fit: none; /* Do not scale the image */
+  	object-position: center; /* Center the image within the element */
+  	height: 100%;
+  	width: 100%;
+
 }
 
 .foliotext{
 	position: relative;
-	bottom: 40px;
-	width: auto;
+	width: 100%;
 	text-align: center;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: white;
+	background-color: teal;
+	bottom: 25px;
+	padding-top: 1px;
+	padding-bottom: 1px;
+
+}
+
+.left{
+	float: left;
+	width: 43%;
+	margin-left: 25px;
+}
+
+.right{
+	float: right;
+	width: 43%;
+	margin-right: 25px;
 }
