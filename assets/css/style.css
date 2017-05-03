@@ -6,7 +6,7 @@ body{background-image: url("../images/footer_lodyas.png");
 	margin:auto;
 }
 
-div{/*border:1px solid red;*/
+div{border:1px solid red;
 	margin: auto;
 }
 
@@ -39,11 +39,15 @@ a{
 }
 
 a:visited{
-	color: grey;
+	color: teal;
 }
 
 a:hover{
 	color: orange;
+}
+
+a:link{
+	color: grey;
 }
 
 img.portrait{ 
@@ -67,7 +71,7 @@ img.portrait{
 }
 
 #headback{height: 100px;
-	width: 6000px;
+	width: auto;
 	background-color: white;
 	position: absolute;
 	left: 0;
@@ -142,4 +146,29 @@ img.network:hover {
 	text-align: center;
 	border-bottom: 2px solid lightgrey;
 	width: 240px;
+}
+
+.folio{
+/*	margin: auto;
+	display: block;*/
+	width: 100%;
+/*	padding: 5%;
+	float: left;
+	width: 90%*/
+
+}
+
+.container{
+	margin: 10px;
+	display: block;
+	width: 40%;
+	padding: 10px;
+	float: left;
+}
+
+.foliotext{
+	position: relative;
+	bottom: 40px;
+	width: auto;
+	text-align: center;
 }
